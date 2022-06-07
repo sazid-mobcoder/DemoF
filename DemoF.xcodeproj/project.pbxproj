@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		36F51E71284F24C6008695A7 /* DemoF.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F51E70284F24C6008695A7 /* DemoF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36F51E79284F252E008695A7 /* CustomTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36F51E77284F252E008695A7 /* CustomTextField.xib */; };
-		36F51E7A284F252E008695A7 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F51E78284F252E008695A7 /* CustomTextField.swift */; };
-		36F51E7D284F25A5008695A7 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F51E7C284F25A5008695A7 /* eye.png */; };
-		36F51E7F284F25B2008695A7 /* hidden.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F51E7E284F25B2008695A7 /* hidden.png */; };
 		36F51F04284F501B008695A7 /* SIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F51F03284F501B008695A7 /* SIHelper.swift */; };
 		36F51F0F284F5E17008695A7 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F51F0E284F5E17008695A7 /* Package.swift */; };
 		36F51F12284F6236008695A7 /* DemoF.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F51F11284F6236008695A7 /* DemoF.xcframework */; };
@@ -20,10 +16,6 @@
 /* Begin PBXFileReference section */
 		36F51E6D284F24C6008695A7 /* DemoF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F51E70284F24C6008695A7 /* DemoF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoF.h; sourceTree = "<group>"; };
-		36F51E77284F252E008695A7 /* CustomTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTextField.xib; sourceTree = "<group>"; };
-		36F51E78284F252E008695A7 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		36F51E7C284F25A5008695A7 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
-		36F51E7E284F25B2008695A7 /* hidden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hidden.png; sourceTree = "<group>"; };
 		36F51F03284F501B008695A7 /* SIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIHelper.swift; sourceTree = "<group>"; };
 		36F51F0E284F5E17008695A7 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = "../../../Downloads/CreateFrameworkForiOS/starter/3-SwiftPackage/CalendarControl/Package.swift"; sourceTree = "<group>"; };
 		36F51F11284F6236008695A7 /* DemoF.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DemoF.xcframework; path = build/DemoF.xcframework; sourceTree = SOURCE_ROOT; };
@@ -61,13 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				36F51E70284F24C6008695A7 /* DemoF.h */,
-				36F51E7E284F25B2008695A7 /* hidden.png */,
-				36F51E7C284F25A5008695A7 /* eye.png */,
 				36F51F0E284F5E17008695A7 /* Package.swift */,
 				36F51F10284F6221008695A7 /* Sources */,
-				36F51E78284F252E008695A7 /* CustomTextField.swift */,
 				36F51F03284F501B008695A7 /* SIHelper.swift */,
-				36F51E77284F252E008695A7 /* CustomTextField.xib */,
 			);
 			path = DemoF;
 			sourceTree = "<group>";
@@ -150,9 +138,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F51E79284F252E008695A7 /* CustomTextField.xib in Resources */,
-				36F51E7F284F25B2008695A7 /* hidden.png in Resources */,
-				36F51E7D284F25A5008695A7 /* eye.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +149,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F51F0F284F5E17008695A7 /* Package.swift in Sources */,
-				36F51E7A284F252E008695A7 /* CustomTextField.swift in Sources */,
 				36F51F04284F501B008695A7 /* SIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
