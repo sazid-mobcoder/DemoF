@@ -9,16 +9,12 @@
 /* Begin PBXBuildFile section */
 		36F51E71284F24C6008695A7 /* DemoF.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F51E70284F24C6008695A7 /* DemoF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36F51F04284F501B008695A7 /* SIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F51F03284F501B008695A7 /* SIHelper.swift */; };
-		36F51F12284F6236008695A7 /* DemoF.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F51F11284F6236008695A7 /* DemoF.xcframework */; };
-		36F51F14284F68AA008695A7 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F51F13284F68AA008695A7 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36F51E6D284F24C6008695A7 /* DemoF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F51E70284F24C6008695A7 /* DemoF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoF.h; sourceTree = "<group>"; };
 		36F51F03284F501B008695A7 /* SIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIHelper.swift; sourceTree = "<group>"; };
-		36F51F11284F6236008695A7 /* DemoF.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DemoF.xcframework; path = build/DemoF.xcframework; sourceTree = SOURCE_ROOT; };
-		36F51F13284F68AA008695A7 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,7 +22,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F51F12284F6236008695A7 /* DemoF.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,20 +47,10 @@
 		36F51E6F284F24C6008695A7 /* DemoF */ = {
 			isa = PBXGroup;
 			children = (
-				36F51F13284F68AA008695A7 /* Package.swift */,
 				36F51E70284F24C6008695A7 /* DemoF.h */,
-				36F51F10284F6221008695A7 /* Sources */,
 				36F51F03284F501B008695A7 /* SIHelper.swift */,
 			);
 			path = DemoF;
-			sourceTree = "<group>";
-		};
-		36F51F10284F6221008695A7 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				36F51F11284F6236008695A7 /* DemoF.xcframework */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F51F14284F68AA008695A7 /* Package.swift in Sources */,
 				36F51F04284F501B008695A7 /* SIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
